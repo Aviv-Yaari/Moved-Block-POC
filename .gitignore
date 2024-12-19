@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+# Build directories
+bin/
+build/
+dist/
+
+# Go dependencies
+/vendor/
+/*.mod
+/*.sum
+
+# Terraform plugin cache
+.terraform/
+.terraform.lock.hcl
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage files
+coverage.out
+
+# Generated documentation
+docs/
